@@ -6,6 +6,7 @@ import Analytics from './components/Analytics';
 import Newsletter from './components/Newsletter';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
+import Feed from './pages/Feed';
 
 
 
@@ -14,10 +15,12 @@ function App() {
     <div>
       <Navbar />
       <Hero/>
+      <Feed/>
       <Analytics/>
       <Newsletter/>
       <Cards/>
       <Footer/>
+      <Feed/>
     </div>
   );
 }
